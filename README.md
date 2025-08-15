@@ -20,7 +20,7 @@ A website for a band developed for a milestone project.
 # Design choices
 ## Typography
 
-I chose to use the (x) font family for the website (explain why here).
+I chose to use the Noto font family for the website as I wanted to use a font that looked professional, while also looking good. I used Google Fonts to find the font, using the filters to look for "Feeling - Business" and "Feeling - Calm" fonts as my main criteria. The font in question was sourced from [here](https://fonts.google.com/noto/specimen/Noto+Sans?lang=en_Latn&categoryFilters=Feeling:%2FExpressive%2FCalm).
 
 ## Colour Scheme
 
@@ -33,11 +33,13 @@ I also utilised EightShapes Contrast Grid as it gave me an easy to understand vi
 
 ## Images
 
-Images used for band members are official material from the game Colourful Stage: Project Sekai ft. Hatsune Miku, sourced from Sekaipedia (link here).
+Images used for band members and the band logo are official material from the game Project SEKAI COLORFUL STAGE! feat. Hatsune Miku, sourced from [Sekaipedia](https://www.sekaipedia.org/wiki/Main_Page).
 
 ## Responsiveness
 
-I chose to incorporate responsiveness through the use of Bootstrap's breakpoints for viewport size, using media queries to adjust the website based on 
+I chose to incorporate responsiveness through the use of Bootstrap's breakpoints for viewport size, using media queries to adjust the website based on the viewport size. The breakpoints used are shown below:
+
+<img width="819" height="271" alt="image" src="https://github.com/user-attachments/assets/f2b20749-a5f3-40ed-9fd7-85988cd118e7" />
 
 # Features
 ## Existing features
@@ -65,4 +67,6 @@ I chose to incorporate responsiveness through the use of Bootstrap's breakpoints
 ## Forking project
 ## Cloning project
 # Credits
+- Official material used for band logos, members, and music videos from Project SEKAI COLORFUL STAGE! feat. Hatsune Miku
+Disclaimer: this site is fanmade and is not in any way affiliated with SEGA, Colorful Palette, or Crypton Future Media.
 
