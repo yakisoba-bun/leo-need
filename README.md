@@ -108,5 +108,8 @@ The project was deployed very early on through the use of GitHub Pages. This can
 ## Forking project
 ## Cloning project
 # Credits
+- Bootstrap's documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 - Official material used for band logos, members, and music videos from Project SEKAI COLORFUL STAGE! feat. Hatsune Miku
-Disclaimer: this site is fanmade and is not in any way affiliated with SEGA, Colorful Palette, or Crypton Future Media.
+- 
+# Disclaimer
+This site is entirely fanmade and is not in any way affiliated with SEGA, Colorful Palette, or Crypton Future Media.
