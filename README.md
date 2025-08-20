@@ -87,7 +87,9 @@ The booking form leads to a (dummied) success page.
 - Colors for the website picked from [coolors](https://coolors.co/)
   
 # Testing
-## Bugs
+## Bugs and other issues
+# Issue with styling navbar
+I had difficulties figuring out how to adjust the navbar to utilise the chosen color as styling it via the external stylesheet was not working. I was able to eventually fix it by using inline styling within the navbar code to assign the right background color to it.
 ## Validation
 
 - HTML validation carried out via the W3Schools HTML validation tool
