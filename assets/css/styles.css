@@ -20,3 +20,16 @@ head {
 
 /* Global styles */
 
+body {
+    font-family: var(--primary-font);
+}
+
+/* Navigation */
+
+#navbar {
+    background-color: #021775;
+}
+
+#navbar .logo {
+    width: 50px;
+}
