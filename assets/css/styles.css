@@ -1,16 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* Inserted filler code here to test Github repository integration
-
-head {
-    width: 100px
-}
-*/
-
 /* CSS variables*/
 :root {
     --primary-font: "Noto Sans", sans-serif;
-    --secondary-font: "Lato";
+    --secondary-font: "Lato", cursive;
     --primary-color: #021775;
     --secondary-color: #4560C6;
     --tertiary-color: #3E457D;
@@ -21,11 +14,15 @@ head {
 /* Global styles */
 
 body {
-    font-family: var(--primary-font);
+    font-family: "Noto Sans";
 }
 
 /* Navigation */
 
+#navbar {
+    background: var(--secondary-color);
+}
+
 #navbar .logo {
-    width: 50px;
+    width: 70px;
 }
