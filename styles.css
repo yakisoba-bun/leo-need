@@ -49,13 +49,16 @@ h6 {
 }
 
 #hero .hero-image {
-    width: 50%;
+    width: 55%;
 }
 
 
 /* Music section */
 
 /* Booking form */
+#booking {
+    background-color: var(--secondary-color);
+}
 
 /* Footer */
 footer > p {
