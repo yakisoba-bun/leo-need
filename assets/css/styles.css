@@ -41,6 +41,18 @@ h6 {
     width: 70px;
 }
 
+/* Header */
+#hero {
+    padding-top: 57.95px;
+    display: flex;
+    justify-content: center;
+}
+
+#hero .hero-image {
+    width: 50%;
+}
+
+
 /* Music section */
 
 /* Booking form */
