@@ -85,11 +85,11 @@ The booking form leads to a (dummied) success page.
 - [Bootstrap Version 5.3](https://getbootstrap.com/) for (features that used bootstrap go here)
 - Visual Studio Code (link here) as my chosen IDE
 - Colors for the website picked from [coolors](https://coolors.co/)
+- [W3Schools CSS Tutorials](https://www.w3schools.com/css/default.asp) used as a resource for various elements (e.g. how to center the hero-image)
+- Initial code for the navbar from a previous project [Boardwalk Games](https://github.com/yakisoba-bun/boardwalk-games) done as part of the Code Institute course.
   
 # Testing
 ## Bugs and other issues
-# Issue with styling navbar
-I had difficulties figuring out how to adjust the navbar to utilise the chosen color as styling it via the external stylesheet was not working. I was able to eventually fix it by using inline styling within the navbar code to assign the right background color to it.
 ## Validation
 
 - HTML validation carried out via the W3Schools HTML validation tool
