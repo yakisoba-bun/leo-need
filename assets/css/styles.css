@@ -69,13 +69,25 @@ h6 {
 
 /* Booking form */
 #booking {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
+    padding-bottom: 1rem;
 }
 
 /* Footer */
+
+#footer {
+    background: var(--secondary-color);
+}
+
 footer > p {
     text-align: center;
-    padding-top: 2.5rem;
+    padding-top: 1rem;
+}
+
+#socials {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
 }
 
 /* Media Queries */
