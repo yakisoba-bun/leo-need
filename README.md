@@ -90,6 +90,8 @@ The booking form leads to a (dummied) success page.
   
 # Testing
 ## Bugs and other issues
+# CSS stylesheet
+I had an issue after I began coding where I noticed that the CSS changes were not being added to the repository. I could not figure out a way to make it so that the IDE integration would mean the changes would be automatically uploaded, so I ended up using a workaround. I could instead upload the CSS file with changes I made to it and commit that to the repository.
 ## Validation
 
 - HTML validation carried out via the W3Schools HTML validation tool
