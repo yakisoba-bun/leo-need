@@ -49,7 +49,15 @@ h6 {
 }
 
 #hero .hero-image {
-    width: 55%;
+    width: 50%;
+    padding: 1.5rem;
+    margin: 5px;
+}
+
+/* About section */
+
+#about h1, h2 {
+    padding: 1.5rem;
 }
 
 
