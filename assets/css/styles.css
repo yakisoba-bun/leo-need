@@ -49,7 +49,7 @@ h6 {
 }
 
 #hero .hero-image {
-    width: 50%;
+    width: 80%;
     padding: 1.5rem;
     margin: 5px;
 }
@@ -58,6 +58,11 @@ h6 {
 
 #about h1, h2 {
     padding: 1.5rem;
+}
+
+#band-image {
+    width: 50%;
+    padding-bottom: 2rem;
 }
 
 /* Music section */
