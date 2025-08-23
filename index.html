@@ -39,11 +39,11 @@
                                         href="#about" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">About</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Leo/need</a></li>
-                                        <li><a class="dropdown-item" href="#">Hoshino Ichika</a></li>
-                                        <li><a class="dropdown-item" href="#">Tenma Saki</a></li>
-                                        <li><a class="dropdown-item" href="#">Mochizuki Honami</a></li>
-                                        <li><a class="dropdown-item" href="#">Hinomori Shiho</a></li>
+                                        <li><a class="dropdown-item" href="#about">Leo/need</a></li>
+                                        <li><a class="dropdown-item" href="#ichika">Hoshino Ichika</a></li>
+                                        <li><a class="dropdown-item" href="#saki">Tenma Saki</a></li>
+                                        <li><a class="dropdown-item" href="#honami">Mochizuki Honami</a></li>
+                                        <li><a class="dropdown-item" href="#shiho">Hinomori Shiho</a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -73,21 +73,23 @@
         <!--About section-->
         <section id="about" class="container section">
             <!--About the band subsection-->
-            <div class="row">
+            <div class="row flex-container">
                 <div class="col-12 text-center">
                     <h1>About Leo/Need...</h1>
-                    <img src="assets\images\band-hero-image-2.png" alt="image of leo/need facing away from the camera"
-                        id="band-image">
-                    <div class="row col-12">
+                    <div class="row" id="about-text">
                         <p>Leo/Need are a 4-piece japanese soft rock band, formed by a group of childhood friends who
-                            have learned to overcome their differences.</p>
-                        <p>Led by the energetic voice of Hoshino Ichika and with the talents of drummer Mochizuki
-                            Honami, keyboardist Tenma Saki, and bassist Hinomori Shiho,their journey continues
-                            starwards!</p>
-                        <p>The band are known to bring more than just their own voices to their songs too.
-                            A number of their songs also feature famous vocaloids such as Hatsune Miku, Megurine Luka,
-                            and the Kagamine twins!
+                            have learned to overcome their differences. After working hard to better themselves, they
+                            landed themselves a deal with a record company and turned professional.
+                            Led by the energetic voice of Hoshino Ichika and with the talents of drummer Mochizuki
+                            Honami, keyboardist Tenma Saki, and bassist Hinomori Shiho,
+                            they continue to go from strength to strength as a band. Their journey continues starwards!
                         </p>
+                        <p> Musically, the band covers a range of styles but primarily leans on their rock-oriented
+                            style of music, which is equal parts energetic and emotive.
+                            The band are known to bring more than just their own voices to their songs too.
+                            A number of their songs also feature famous vocaloids such as Hatsune Miku, Megurine Luka,
+                            and the Kagamine twins!</p>
+
                     </div>
                 </div>
                 <!--Band members subsection-->
@@ -163,7 +165,7 @@
                         </div>
                     </div>
                     <div class="row text-center">
-                        <p>Want to see Leo/Need perform live? Book tickets <a href="#booking">here</a></p>
+                        <p><small>Want to see Leo/Need perform live? Book tickets <a href="#booking">here!</a></small></p>
                     </div>
                 </div>
             </div>
@@ -215,17 +217,18 @@
                     </div>
                 </div>
                 <div class="row text-center">
-                    <p>Want to see Leo/Need perform live? Book tickets <a href="#booking">here</a></p>
+                    <p><small>Want to see Leo/Need perform live? Book tickets <a href="#booking">here!</a></small></p>
                 </div>
             </div>
         </section>
         <!--Booking form section-->
         <!--Booking form-->
         <section id="booking" class="container section">
-            <div class="row">
+            <div class="row g-3">
                 <div class="col-12 text-center">
                     <h1>Tickets</h1>
-                    <p>Thank you for your interest in seeing Leo/need perform live! Fill in your details below to reserve your tickets, and join the band on their journey towards the stars!</p>
+                    <p>Thank you for your interest in seeing Leo/need perform live! Fill in your details below to
+                        reserve your tickets, and join the band on their journey towards the stars!</p>
                     <form action="success.html" method="GET">
                         <div class="row">
                             <div class="col-12 mb-3">
@@ -246,17 +249,19 @@
                                 </label>
                                 <input class="form-control" id="name" name="name" type="text" required>
                             </div>
-                            <div class="col-12 mb-3">
+                            <div class="col-md-6 mb-3">
                                 <label for="city" class="form-label">
                                     <p>City:</p>
-                                    <input class="form-control" id="city" name="city" type="text" required>
                                 </label>
+                                <input class="form-control" id="city" name="city" type="text" required>
                             </div>
-                            <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="check1">
-                                <label class="form-check-label" for="check1">
-                                    <p>I agree to be contacted by email when tickets are available.</p>
-                                </label>
+                            <div class="row mb-3">
+                                <div class="col-12 col-md-6 mb-3 offset-md-3 form-check">
+                                    <label class="form-check-label" for="check1">
+                                        <p>I agree to be contacted by email when tickets are available.</p>
+                                    </label>
+                                    <input type="checkbox" class="form-check-input" id="check1">
+                                </div>
                             </div>
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
