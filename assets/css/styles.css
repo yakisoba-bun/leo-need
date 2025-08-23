@@ -65,12 +65,28 @@ h6 {
     padding-bottom: 2rem;
 }
 
-/* Music section */
-
-#carouselExampleIndicators {
-    padding: 2rem;
+#cards {
+    width: 95%;
 }
 
+#cards h5 {
+    text-transform: uppercase;
+    text-align: start;
+    padding: .5rem;
+}
+
+#cards p {
+    text-align: start;
+}
+
+/* Music section */
+
+#music iframe {
+    margin: auto;
+    width: 100%;
+}
+
+/* Makes the embeds larger, requires extra CSS to center them properly */
 .underground-video {
   position: relative;
   display: block;
@@ -129,8 +145,8 @@ h6 {
 #booking {
     background-color: var(--primary-color);
     padding-bottom: 1rem;
-    display: flex;
-    justify-content: center;
+    display: flex; 
+    justify-content: center; /* Centers the form fields */
 }
 
 /* Footer */
@@ -148,6 +164,7 @@ footer > p {
     display: flex;
     justify-content: center;
     padding-bottom: 2rem;
+    text-align: center;
 }
 
 /* Success page */
@@ -169,6 +186,22 @@ footer > p {
 
 /* xl devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
+    /* Aligns the images so they look more vertically centered on larger screens*/
+    #ichika-image {
+        padding-top: 10%;
+    }
+
+    #saki-image {
+        padding-top: 10%;
+    }
+
+    #honami-image {
+        padding-top: 10%;
+    }
+
+    #shiho-image {
+        padding-top: 10%;
+    }
 }
 
 /* xxl devices (larger desktops, 1400px and up) */
