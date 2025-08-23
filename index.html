@@ -16,56 +16,62 @@
 <body class="flex-column">
     <!--Header-->
     <header>
-        <!--Navigation bar-->
-        <nav id="navbar" class="navbar fixed-top navbar-expand-lg" data-bs-theme="dark">
+        <section id="navigation">
+            <!--Navigation bar-->
+            <nav id="navbar" class="navbar fixed-top navbar-expand-lg" data-bs-theme="dark">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="assets/images/leo-need-logo.png" alt="Leo/Need band logo"
+                            class="logo align-self-start">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <div class="dropdown-center">
+                                    <a class="nav-link btn btn-secondary dropdown-toggle" id="about-dropdown"
+                                        href="#about" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">About</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Leo/need</a></li>
+                                        <li><a class="dropdown-item" href="#">Hoshino Ichika</a></li>
+                                        <li><a class="dropdown-item" href="#">Tenma Saki</a></li>
+                                        <li><a class="dropdown-item" href="#">Mochizuki Honami</a></li>
+                                        <li><a class="dropdown-item" href="#">Hinomori Shiho</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#music">Music</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#booking">Tickets</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <!--Hero image-->
+        <section id="hero">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
-                    <img src="assets/images/leo-need-logo.png" alt="Leo/Need band logo" class="logo align-self-start">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <div class="dropdown-center">
-                                <a class="nav-link btn btn-secondary dropdown-toggle" id="about-dropdown" href="#about" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">Leo/need</a></li>
-                                    <li><a class="dropdown-item" href="#">Hoshino Ichika</a></li>
-                                    <li><a class="dropdown-item" href="#">Tenma Saki</a></li>
-                                    <li><a class="dropdown-item" href="#">Mochizuki Honami</a></li>
-                                    <li><a class="dropdown-item" href="#">Hinomori Shiho</a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#music">Music</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#booking">Tickets</a>
-                        </li>
-                    </ul>
+                <div id="hero">
+                    <img src="assets\images\leo-need-hero-image-2.png" alt="hero image of leo/need" id="hero-image"
+                        class="hero-image">
                 </div>
             </div>
-        </nav>
-        <!--Hero image-->
-        <div class="container">
-            <div id="hero">
-                <img src="assets\images\leo-need-hero-image-2.png" alt="hero image of leo/need" id="hero-image"
-                    class="hero-image">
-            </div>
-        </div>
-
+        </section>
     </header>
 
     <main>
         <!--About section-->
-        <section id="about">
+        <section id="about" class="container section">
             <!--About the band subsection-->
             <div class="row">
                 <div class="col-12 text-center">
@@ -163,7 +169,7 @@
             </div>
         </section>
         <!--Music section-->
-        <section id="music">
+        <section id="music" class="container section">
             <div class="row">
                 <div class="col-12 text-center">
                     <h1>Music</h1>
@@ -181,17 +187,17 @@
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="ratio ratio-16x9 underground-video">
-                                <iframe src="https://youtube.com/embed/eb46opRRyLc?controls=1"></iframe>
+                                    <iframe src="https://youtube.com/embed/eb46opRRyLc?controls=1"></iframe>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="ratio ratio-16x9 story-video">
-                                <iframe src="https://www.youtube.com/embed/9fnQklaziX4?controls=1"></iframe>
+                                    <iframe src="https://www.youtube.com/embed/9fnQklaziX4?controls=1"></iframe>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <div class="ratio ratio-16x9 show-off-video">
-                                <iframe src="https://www.youtube.com/embed/diDsFjpV8yw?controls=1"></iframe>
+                                    <iframe src="https://www.youtube.com/embed/diDsFjpV8yw?controls=1"></iframe>
                                 </div>
                             </div>
                         </div>
@@ -215,34 +221,43 @@
         </section>
         <!--Booking form section-->
         <!--Booking form-->
-        <section id="booking">
+        <section id="booking" class="container section">
             <div class="row">
                 <div class="col-12 text-center">
                     <h1>Tickets</h1>
-                    <form>
-                        <div class="mb-3">
-                            <label for="email-address" class="form-label">
-                                <p>Email Address</p>
-                            </label>
-                            <input type="email" class="form-control" id="email-address">
-                        </div>
-                        <div class="mb-3">
-                            <label for="first-name" class="form-label">
-                                <p>First Name</p>
-                            </label>
-                            <input type="text" class="form-control" id="first-name">
-                        </div>
-                        <div class="mb-3">
-                            <label for="last-name" class="form-label">
-                                <p>Last Name</p>
-                            </label>
-                            <input type="text" class="form-control" id="last-name">
-                        </div>
-                        <div class="mb-3 form-check">
-                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                            <label class="form-check-label" for="exampleCheck1">
-                                <p>I agree to be contacted by email when tickets are available.</p>
-                            </label>
+                    <p>Thank you for your interest in seeing Leo/need perform live! Fill in your details below to reserve your tickets, and join the band on their journey towards the stars!</p>
+                    <form action="success.html" method="GET">
+                        <div class="row">
+                            <div class="col-12 mb-3">
+                                <label for="email" class="form-label">
+                                    <p>Email:</p>
+                                </label>
+                                <input class="form-control" id="email" name="email" type="email" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="name" class="form-label">
+                                    <p>First Name:</p>
+                                </label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-lg-6 mb-3">
+                                <label for="name" class="form-label">
+                                    <p>Last Name:</p>
+                                </label>
+                                <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 mb-3">
+                                <label for="city" class="form-label">
+                                    <p>City:</p>
+                                    <input class="form-control" id="city" name="city" type="text" required>
+                                </label>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="check1">
+                                <label class="form-check-label" for="check1">
+                                    <p>I agree to be contacted by email when tickets are available.</p>
+                                </label>
+                            </div>
                         </div>
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>
