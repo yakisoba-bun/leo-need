@@ -7,27 +7,19 @@
     --primary-color: #021775;
     --secondary-color: #4560C6;
     --tertiary-color: #3E457D;
-    --text-color-light: white;
-    --text-color-dark: black;
+    --text-color-light: #FFFFFF;
+    --text-color-dark: #000000;
 }
 
 /* Global styles */
 
+html {
+    scroll-padding-top: 4.5rem;
+}
+
 body {
     font-family: "Noto Sans";
     background-color: var(--primary-color);
-}
-
-p {
-    color: var(--text-color-light);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
     color: var(--text-color-light);
 }
 
@@ -43,7 +35,7 @@ h6 {
 
 /* Header */
 #hero {
-    padding-top: 57.95px;
+    padding-top: 5.7rem;
     display: flex;
     justify-content: center;
 }
@@ -56,7 +48,11 @@ h6 {
 
 /* About section */
 
-#about h1, h2 {
+.about-title {
+    padding: 1.5rem;
+}
+
+.band-title {
     padding: 1.5rem;
 }
 
@@ -69,14 +65,9 @@ h6 {
     width: 95%;
 }
 
-#cards h5 {
+.card-title {
     text-transform: uppercase;
-    text-align: start;
     padding: .5rem;
-}
-
-#cards p {
-    text-align: start;
 }
 
 /* Music section */
@@ -90,10 +81,10 @@ h6 {
 .underground-video {
   position: relative;
   display: block;
-  width: 90%; /* width of iframe wrapper */
+  width: 90%;
   height: 0;
   margin: auto;
-  padding: 0% 0% 56.25%; /* 16:9 ratio */
+  padding: 0% 0% 56.25%;
   overflow: hidden;
 }
 
@@ -108,10 +99,10 @@ h6 {
 .story-video {
   position: relative;
   display: block;
-  width: 90%; /* width of iframe wrapper */
+  width: 90%;
   height: 0;
   margin: auto;
-  padding: 0% 0% 56.25%; /* 16:9 ratio */
+  padding: 0% 0% 56.25%;
   overflow: hidden;
 }
 
