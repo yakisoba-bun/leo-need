@@ -52,10 +52,6 @@ body {
     padding: 1.5rem;
 }
 
-.band-title {
-    padding: 1.5rem;
-}
-
 #band-image {
     width: 50%;
     padding-bottom: 2rem;
@@ -72,13 +68,8 @@ body {
 
 /* Music section */
 
-#music iframe {
-    margin: auto;
-    width: 100%;
-}
-
 /* Makes the embeds larger, requires extra CSS to center them properly */
-.underground-video {
+.music-video {
   position: relative;
   display: block;
   width: 90%;
@@ -88,51 +79,16 @@ body {
   overflow: hidden;
 }
 
-.underground-video iframe {
+.music-video iframe {
   position: absolute;
   top: 0; bottom: 0; left: 0;
-  width: 75%;
-  height: 75%;
-  border: 0;
-}
-
-.story-video {
-  position: relative;
-  display: block;
-  width: 90%;
-  height: 0;
-  margin: auto;
-  padding: 0% 0% 56.25%;
-  overflow: hidden;
-}
-
-.story-video iframe {
-  position: absolute;
-  top: 0; bottom: 0; left: 0;
-  width: 75%;
-  height: 75%;
-  border: 0;
-}
-
-.show-off-video {
-  position: relative;
-  display: block;
-  width: 90%; /* width of iframe wrapper */
-  height: 0;
-  margin: auto;
-  padding: 0% 0% 56.25%; /* 16:9 ratio */
-  overflow: hidden;
-}
-
-.show-off-video iframe {
-  position: absolute;
-  top: 0; bottom: 0; left: 0;
-  width: 75%;
+  width: 100%;
   height: 75%;
   border: 0;
 }
 
 /* Booking form */
+
 #booking {
     background-color: var(--primary-color);
     padding-bottom: 1rem;
@@ -144,9 +100,6 @@ body {
 
 #footer {
     background: var(--secondary-color);
-}
-
-footer > p {
     text-align: center;
     padding-top: 1rem;
 }
@@ -155,25 +108,9 @@ footer > p {
     display: flex;
     justify-content: center;
     padding-bottom: 2rem;
-    text-align: center;
 }
 
-/* Success page */
-
-
-/* Media Queries */
-
-/* Small screens and up */
-@media screen and (min-width: 576px) {
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media screen and (min-width: 768px) {
-}
-
-/* Large devices (small laptops, 992px and up) */
-@media screen and (min-width: 992px) {
-}
+/* Media queries */
 
 /* xl devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
@@ -193,8 +130,4 @@ footer > p {
     #shiho-image {
         padding-top: 10%;
     }
-}
-
-/* xxl devices (larger desktops, 1400px and up) */
-@media screen and (min-width: 1400px) {
 }
