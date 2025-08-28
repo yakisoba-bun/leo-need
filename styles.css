@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* CSS variables*/
+:root {
+    --primary-font: "Noto Sans", sans-serif;
+    --secondary-font: "Lato", cursive;
+    --primary-color: #021775;
+    --secondary-color: #4560C6;
+    --tertiary-color: #3E457D;
+    --text-color-light: #FFFFFF;
+    --text-color-dark: #000000;
+}
+
+/* Global styles */
+
+html {
+    scroll-padding-top: 4.5rem;
+}
+
+body {
+    font-family: "Noto Sans";
+    background-color: var(--primary-color);
+    color: var(--text-color-light);
+}
+
+/* Navigation */
+
+#navbar {
+    background: var(--secondary-color);
+}
+
+#navbar .logo {
+    width: 70px;
+}
+
+/* Header */
+#hero {
+    padding-top: 1.65rem;
+    display: flex;
+    justify-content: center;
+}
+
+#hero .hero-image {
+    width: 100%;
+    padding-bottom: 1rem;
+    margin: 5px;
+}
+
+/* About section */
+
+.about-title {
+    padding: 1.5rem;
+}
+
+#band-image {
+    width: 50%;
+    padding-bottom: 2rem;
+}
+
+#cards {
+    width: 95%;
+}
+
+.card-title {
+    text-transform: uppercase;
+    padding: .5rem;
+}
+
+/* Music section */
+
+/* Makes the embeds larger, requires extra CSS to center them properly */
+.music-video {
+  position: relative;
+  display: block;
+  width: 90%;
+  height: 0;
+  margin: auto;
+  padding: 0% 0% 56.25%;
+  overflow: hidden;
+}
+
+#music-video {
+  position: absolute;
+  top: 0; bottom: 0; left: 0;
+  width: 100%;
+  height: 75%;
+  border: 0;
+}
+
+/* Booking form */
+
+#booking {
+    background-color: var(--primary-color);
+    padding-bottom: 1rem;
+    display: flex; 
+    justify-content: center; /* Centers the form fields */
+}
+
+/* Footer */
+
+#footer {
+    background: var(--secondary-color);
+    text-align: center;
+    padding-top: 1rem;
+}
+
+#socials {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+/* Media queries */
+
+/* xl devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+    /* Aligns the images so they look more vertically centered on larger screens*/
+    #ichika-image {
+        padding-top: 10%;
+    }
+
+    #saki-image {
+        padding-top: 10%;
+    }
+
+    #honami-image {
+        padding-top: 10%;
+    }
+
+    #shiho-image {
+        padding-top: 10%;
+    }
+}
