@@ -73,7 +73,7 @@
         <!--About section-->
         <section id="about" class="container section">
             <!--About the band subsection-->
-            <div class="row flex-container">
+            <div class="row">
                 <div class="col-12 text-center">
                     <div class="container-fluid" id="title">
                         <h1 class="about-title">About Leo/Need...</h1>
@@ -168,7 +168,7 @@
                                         member of Leo/need!</p>
                                     <p class="card-text">
                                     <h5 class="card-title">Birthday:</h5>
-                                    <p>October 27th/p>
+                                    <p>October 27th</p>
                                     <h5 class="card-title">Hobbies:</h5>
                                     <p>Walking her dog <br>Gardening</p>
                                     <h5 class="card-title">Likes:</h5>
@@ -217,37 +217,32 @@
         <section id="music" class="container section">
             <div class="row">
                 <div class="col-12 text-center">
-                    <div class="container-fluid" id="title">
+                    <div class="container container-fluid" id="title">
                         <h3>Music</h3>
                     </div>
-                    <!--Carousel for music videos-->
-                    <div class="music-video" id="music-video">
-                        <div class="ratio ratio-16x9 music-video">
-                            <iframe width="560" height="315"
-                                src="https://www.youtube.com/embed/qDidqFD9QsU?si=p73zq1kZWsc8mkRn"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                        <div class="ratio ratio-16x9 music-video">
-                            <iframe width="560" height="315"
-                                src="https://www.youtube.com/embed/9fnQklaziX4?si=cYiHBBPjL89tW6Ai"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                        <div class="ratio ratio-16x9 music-video">
-                            <iframe width="560" height="315"
-                                src="https://www.youtube.com/embed/diDsFjpV8yw?si=g4F0R-Cy4cTe5-Ph"
-                                title="YouTube video player" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
+                    <div class="col-md-12" id="music-video">
+                        <iframe width="420" height="420"
+                            src="https://www.youtube.com/embed/qDidqFD9QsU?si=p73zq1kZWsc8mkRn"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                        <iframe width="420" height="420"
+                            src="https://www.youtube.com/embed/9fnQklaziX4?si=cYiHBBPjL89tW6Ai"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="420" height="420"
+                            src="https://www.youtube.com/embed/diDsFjpV8yw?si=g4F0R-Cy4cTe5-Ph"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="row text-center">
-                    <p><small>Want to see Leo/Need perform live? Book tickets <a href="#booking">here!</a></small></p>
-                </div>
+            </div>
+            <div class="row text-center">
+                <p><small>Want to see Leo/Need perform live? Book tickets <a href="#booking">here!</a></small></p>
+            </div>
             </div>
         </section>
         <!--Booking form section-->
@@ -255,9 +250,13 @@
         <section id="booking" class="container section">
             <div class="row justify-content-center">
                 <div class="col-10 text-center">
-                    <div class="container-fluid">
+                    <div class="container-fluid" id="title">
                         <h4>Tickets</h4>
                     </div>
+                    <img src="assets\images\thanks-ichika.png" id="thanks">
+                    <img src="assets\images\thanks-saki.png" id="thanks">
+                    <img src="assets\images\thanks-honami.png" id="thanks">
+                    <img src="assets\images\thanks-shiho.png" id="thanks">
                     <p>Thank you for your interest in seeing Leo/need perform live! Fill in your details below to
                         reserve your tickets, and join the band on their journey towards the stars!</p>
                     <form method="POST" action="https://formdump.codeinstitute.net">
@@ -309,6 +308,7 @@
             <i class="fa-brands fa-facebook fa-lg" style="color: #74C0FC;"></i>
             <i class="fa-brands fa-x-twitter fa-lg" style="color: #74C0FC;"></i>
             <i class="fa-brands fa-youtube fa-lg" style="color: #74C0FC;"></i>
+            <i class="fa-brands fa-instagram fa-lg" style="color: #74c0fc;" ;></i>
         </div>
     </footer>
     <!--Bootstrap JS import-->

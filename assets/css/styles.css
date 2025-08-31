@@ -23,6 +23,10 @@ body {
     color: var(--text-color-light);
 }
 
+#title {
+    background-color: #000000;
+}
+
 /* Navigation */
 
 #navbar {
@@ -30,7 +34,7 @@ body {
 }
 
 #navbar .logo {
-    width: 70px;
+    width: 5rem;
 }
 
 /* Header */
@@ -69,10 +73,17 @@ body {
 
 /* Music section */
 
-/* Makes the embeds larger, requires extra CSS to center them properly */
-
+#music-video {
+    margin: auto;
+    padding: 1rem 0rem;
+}
 
 /* Booking form */
+
+#thanks {
+    width: 13%;
+    padding: 2rem 0rem;
+}
 
 #booking {
     background-color: var(--primary-color);
@@ -91,7 +102,7 @@ body {
 
 #socials {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     padding-bottom: 2rem;
 }
 
