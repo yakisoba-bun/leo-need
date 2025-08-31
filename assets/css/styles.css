@@ -50,6 +50,7 @@ body {
 
 .about-title {
     padding: 1.5rem;
+    text-align: center;
 }
 
 #band-image {
@@ -69,23 +70,7 @@ body {
 /* Music section */
 
 /* Makes the embeds larger, requires extra CSS to center them properly */
-.music-video {
-  position: relative;
-  display: block;
-  width: 90%;
-  height: 0;
-  margin: auto;
-  padding: 0% 0% 56.25%;
-  overflow: hidden;
-}
 
-#music-video {
-  position: absolute;
-  top: 0; bottom: 0; left: 0;
-  width: 100%;
-  height: 75%;
-  border: 0;
-}
 
 /* Booking form */
 
