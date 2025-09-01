@@ -75,9 +75,7 @@
             <!--About the band subsection-->
             <div class="row">
                 <div class="col-12 text-center">
-                    <div class="container-fluid" id="title">
-                        <h1 class="about-title">About Leo/Need...</h1>
-                    </div>
+                        <h1 class="title">About Leo/Need...</h1>
                     <div class="row" id="about-text">
                         <p>Leo/Need are a 4-piece japanese soft rock band, formed by a group of childhood friends who
                             have learned to overcome their differences. After working hard to better themselves, they
@@ -91,14 +89,13 @@
                             The band are known to bring more than just their own voices to their songs too.
                             A number of their songs also feature famous vocaloids such as Hatsune Miku, Megurine Luka,
                             and the Kagamine twins!</p>
-
                     </div>
                 </div>
                 <!--Band members subsection-->
                 <div class="row justify-content-center">
                     <div class="col-12 text-align-start" id="cards">
                         <div class="container-fluid" id="title">
-                            <h2 class="about-title">Meet the band members!</h2>
+                            <h2 class="title">Meet the band members!</h2>
                         </div>
                         <div class="card mb-3" id="ichika" data-bs-theme="dark" style="background-color: #3E457D;">
                             <div class="row g-0">
@@ -214,12 +211,10 @@
             </div>
         </section>
         <!--Music section-->
-        <section id="music" class="container section">
+        <section id="music" class="container-fluid section">
             <div class="row">
                 <div class="col-12 text-center">
-                    <div class="container container-fluid" id="title">
-                        <h3>Music</h3>
-                    </div>
+                        <h3 class="title">Music</h3>
                     <div class="col-md-12" id="music-video">
                         <iframe width="420" height="420"
                             src="https://www.youtube.com/embed/qDidqFD9QsU?si=p73zq1kZWsc8mkRn"
@@ -249,10 +244,8 @@
         <!--Booking form-->
         <section id="booking" class="container section">
             <div class="row justify-content-center">
-                <div class="col-10 text-center">
-                    <div class="container-fluid" id="title">
-                        <h4>Tickets</h4>
-                    </div>
+                <div class="col-12 text-center">
+                        <h4 class="title">Tickets</h4>
                     <img src="assets\images\thanks-ichika.png" id="thanks">
                     <img src="assets\images\thanks-saki.png" id="thanks">
                     <img src="assets\images\thanks-honami.png" id="thanks">
@@ -261,12 +254,6 @@
                         reserve your tickets, and join the band on their journey towards the stars!</p>
                     <form method="POST" action="https://formdump.codeinstitute.net">
                         <div class="row">
-                            <div class="col-12 mb-3">
-                                <label for="email" class="form-label">
-                                    <p>Email:</p>
-                                </label>
-                                <input class="form-control" id="email" name="email" type="email" required>
-                            </div>
                             <div class="col-12 col-md-6 mb-3">
                                 <label for="name" class="form-label">
                                     <p>First Name:</p>
@@ -278,6 +265,12 @@
                                     <p>Last Name:</p>
                                 </label>
                                 <input class="form-control" id="name" name="name" type="text" required>
+                            </div>
+                            <div class="col-12 col-md-6 mb-3">
+                                <label for="email" class="form-label">
+                                    <p>Email:</p>
+                                </label>
+                                <input class="form-control" id="email" name="email" type="email" required>
                             </div>
                             <div class="col-md-6 mb-3">
                                 <label for="address" class="form-label">

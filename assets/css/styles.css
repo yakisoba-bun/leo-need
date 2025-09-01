@@ -23,8 +23,11 @@ body {
     color: var(--text-color-light);
 }
 
-#title {
+.title {
     background-color: #000000;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
 }
 
 /* Navigation */
@@ -45,17 +48,12 @@ body {
 }
 
 #hero .hero-image {
-    width: 100%;
+    width: 125%;
     padding-bottom: 1rem;
     margin: 5px;
 }
 
 /* About section */
-
-.about-title {
-    padding: 1.5rem;
-    text-align: center;
-}
 
 #band-image {
     width: 50%;
