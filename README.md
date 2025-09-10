@@ -89,6 +89,9 @@ The booking form leads to a (dummied) success page.
 - Initial code for the navbar from a previous project [Boardwalk Games](https://github.com/yakisoba-bun/boardwalk-games) done as part of the Code Institute course.
   
 # Testing
+# Internal and external links
+The navigation bar links to each section of the website were tested to ensure that they sent the user to the correct sections, with enough scroll-padding to send the user precisely to the title of the section. The internal links work as intended. The "home" link seems to reload the page when clicked on, while the other links scroll the webpage as needed.
+External links work as intended, sending the user to the correct website and opening in a new tab, as is required.
 ## Bugs and other issues
 # CSS stylesheet
 I had an issue after I began coding where I noticed that the CSS changes were not being added to the repository. I could not figure out a way to make it so that the IDE integration would mean the changes would be automatically uploaded, so I ended up using a workaround. I could instead upload the CSS file with changes I made to it and commit that to the repository.
