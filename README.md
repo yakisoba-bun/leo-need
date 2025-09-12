@@ -92,6 +92,9 @@ The booking form leads to a (dummied) success page.
 # Internal and external links
 The navigation bar links to each section of the website were tested to ensure that they sent the user to the correct sections, with enough scroll-padding to send the user precisely to the title of the section. The internal links work as intended. The "home" link seems to reload the page when clicked on, while the other links scroll the webpage as needed.
 External links work as intended, sending the user to the correct website and opening in a new tab, as is required.
+# Lighthouse 1st test
+The first lighthouse test I performed, using the Github Pages deployment of the site, returned a score of 81 overall, with an 81 score in performance and an 80 score in accessibility. The best practices score was much lower at 56. As I tested it in Github Pages initially, I suspected that the performance score may have been lower as a result of that.
+[The first test results](https://github.com/user-attachments/assets/86d406fe-9170-4f9f-8352-49fa20ca71b5) showed one easy change I could make was to add the meta tags to the head section of the webpage's HTML. I anticipated that this would help to raise the best practices score and raise the overall score as a result.
 ## Bugs and other issues
 # CSS stylesheet
 I had an issue after I began coding where I noticed that the CSS changes were not being added to the repository. I could not figure out a way to make it so that the IDE integration would mean the changes would be automatically uploaded, so I ended up using a workaround. I could instead upload the CSS file with changes I made to it and commit that to the repository.
