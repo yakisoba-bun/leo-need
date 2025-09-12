@@ -12,33 +12,40 @@ A website for a band developed for a milestone project.
 
 (Initial ideas for user stories)
 
-- As a potential fan, I want to find information about the band and its members.
-- As a fan or potential fan, I want to be able to see some of the band's music videos and songs.
-- As a potential concert-goer, I want to be able to book tickets to see the band.
+- As a user, I want to find information about the band.
+- As a user, I want to find out about the band's members.
+- As a user, I want to be able to see some of the band's music videos and songs.
+- As a user, I want to be able to book tickets to see the band.
 - As a user, I want navigation to be easy and intuitive.
 - As a user, I want the website to be accessible and responsive across multiple devices.
 
 # Website goals/objectives
 
 - Allow users to book tickets for the band
-- Provide information to both fans and potential fans about the band and its members
+- Provide information to both fans and potential fans about the band
+- Provide information about the band's individual members
 - Allow users to watch the band's music videos
+- Allow users to interact with the website on multiple platforms and screen sizes.
   
 # Wireframes
 
-Wireframes for this website were made using [Balsamiq](https://balsamiq.com/), which made it easier to plan the design for the website with functionality across multiple devices in mind. I first prioritised designing the website for mobile in line with the principle of mobile-first design, as it helps to make the website accessible and allowed me to scale up the website for larger screen sizes easier.
+Wireframes for this website were made using [Balsamiq](https://balsamiq.com/), which made it easier to plan the design for the website with functionality across multiple devices in mind. I first prioritised designing the website for mobile in line with the principle of mobile-first design, as it helps to make the website accessible and allowed me to scale up the website for larger screen sizes easier. The initial wireframes were mostly similar to what ended up being developed, with some key changes.
+
+In the initial design, there was a carousel for band members on the tablet/laptop and desktop versions, along with information next to the carousel on each member. There was also a carousel for music videos with information on each music video, but the carousels were difficult to implement correctly without some issues with functionality. For example, the carousel scroll buttons would prevent the user from pausing or adjusting the volume for the music videos.
 
 <details>
-  <summary>**Wireframe for mobile version of website**</summary> 
+  <summary>**Initial wireframe for mobile version of website**</summary> 
 <img width="576" height="3221" alt="Image of a wireframe of the website" src="https://github.com/user-attachments/assets/dfab9fcd-55c9-462b-b8a8-9fac0d728585" />
 </details>
 
 <details>
-  <summary>**Wireframe for tablet/laptop version of website</summary>
+  <summary>**Initial wireframe for tablet/laptop version of website</summary>
+<img width="1331" height="2609" alt="Homepage (Tablet)" src="https://github.com/user-attachments/assets/6a1a7675-31b3-45f0-9650-e14093535e1d" />
 </details>
 
 <details>
-  <summary>**Wireframe for desktop version of website**</summary>
+  <summary>**Initial wireframe for desktop version of website**</summary>
+<img width="1415" height="2355" alt="Homepage (Desktop)" src="https://github.com/user-attachments/assets/e1e6b445-857b-44af-8d1b-6801db68f0b7" />
 </details>
 
 
