@@ -77,7 +77,7 @@ html, body {
 
 /* Booking form */
 
-#thanks {
+#thanks-saki, #thanks-ichika, #thanks-honami, #thanks-shiho {
     width: 13%;
     padding: 2rem 0rem;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -18,7 +18,7 @@
 <body class="flex-column">
     <!--Header-->
     <header>
-        <section id="navigation">
+        <div id="navigation">
             <!--Navigation bar-->
             <nav id="navbar" class="navbar fixed-top navbar-expand-lg" data-bs-theme="dark">
                 <div class="container">
@@ -59,7 +59,7 @@
                     </div>
                 </div>
             </nav>
-        </section>
+        </div>
         <!--Hero image-->
         <section id="hero">
             <div class="container">
@@ -76,7 +76,7 @@
         <section id="about" class="container section">
             <!--About the band subsection-->
             <div class="row">
-                <div class="col-12 text-center title-color">
+                <div class="col-12 text-center">
                         <h1 class="title">About Leo/Need...</h1>
                     <div class="row" id="about-text">
                         <p>Leo/Need are a 4-piece japanese soft rock band, formed by a group of childhood friends who
@@ -240,7 +240,6 @@
             <div class="row text-center">
                 <p><small>Want to see Leo/Need perform live? Book tickets <a href="#booking">here!</a></small></p>
             </div>
-            </div>
         </section>
         <!--Booking form section-->
         <!--Booking form-->
@@ -248,42 +247,42 @@
             <div class="row justify-content-center">
                 <div class="col-12 text-center">
                         <h4 class="title">Tickets</h4>
-                    <img src="assets\images\thanks-ichika.png" id="thanks">
-                    <img src="assets\images\thanks-saki.png" id="thanks">
-                    <img src="assets\images\thanks-honami.png" id="thanks">
-                    <img src="assets\images\thanks-shiho.png" id="thanks">
+                    <img src="assets\images\thanks-ichika.png" id="thanks-ichika" alt="chibified image of hoshino ichika">
+                    <img src="assets\images\thanks-saki.png" id="thanks-saki" alt="chibified image of tenma saki">
+                    <img src="assets\images\thanks-honami.png" id="thanks-honami" alt="chibified image of mochizuki honami">
+                    <img src="assets\images\thanks-shiho.png" id="thanks-shiho" alt="chibified image of hinomori shiho">
                     <p>Thank you for your interest in seeing Leo/need perform live! Fill in your details below to
                         reserve your tickets, and join the band on their journey towards the stars!</p>
                     <form method="POST" action="https://formdump.codeinstitute.net">
                         <div class="row">
                             <div class="col-12 col-md-6 mb-3">
                                 <label for="name" class="form-label">
-                                    <p>First Name:</p>
+                                    First Name:
                                 </label>
                                 <input class="form-control" id="name" name="name" type="text" required>
                             </div>
                             <div class="col-12 col-md-6 mb-3">
                                 <label for="name" class="form-label">
-                                    <p>Last Name:</p>
+                                    Last Name:
                                 </label>
                                 <input class="form-control" id="name" name="name" type="text" required>
                             </div>
                             <div class="col-12 col-md-6 mb-3">
                                 <label for="email" class="form-label">
-                                    <p>Email:</p>
+                                    Email:
                                 </label>
                                 <input class="form-control" id="email" name="email" type="email" required>
                             </div>
                             <div class="col-12 col-md-6 mb-3">
                                 <label for="address" class="form-label">
-                                    <p>Postcode:</p>
+                                    Postcode:
                                 </label>
                                 <input class="form-control" id="address" name="address" type="text" required>
                             </div>
                             <div class="row mb-3">
                                 <div class="col-12 col-md-6 mb-3 offset-md-3 form-check">
                                     <label class="form-check-label" for="check1">
-                                        <p>I agree to be contacted by email when tickets are purchaseable.</p>
+                                        I agree to be contacted by email when tickets are purchaseable.
                                     </label>
                                     <input type="checkbox" class="form-check-input" id="check1">
                                 </div>
