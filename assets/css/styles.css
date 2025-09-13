@@ -39,13 +39,13 @@ html, body {
 }
 
 /* Header */
-#hero {
+.hero {
     padding-top: 1.65rem;
     display: flex;
     justify-content: center;
 }
 
-#hero .hero-image {
+.hero .hero-image {
     height: 100%;
     width: 125%;
     padding-bottom: 1rem;
