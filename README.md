@@ -10,8 +10,6 @@ A website for a band developed for a milestone project.
   
 # User Stories
 
-(Initial ideas for user stories)
-
 - As a user, I want to find information about the band.
 - As a user, I want to find out about the band's members.
 - As a user, I want to be able to see some of the band's music videos and songs.
