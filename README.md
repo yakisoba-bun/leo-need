@@ -76,17 +76,15 @@ I chose to incorporate responsiveness through the use of Bootstrap's breakpoints
 # Features
 # Existing features
 ## Navigation
-The navigation was made using Bootstrap's responsive navbar as the base, further customising it to fit the website's color scheme and style.
-## Header
-(Describe styling used and how it links to other sections on the website)
+The navigation was made using Bootstrap's responsive navbar as the base, further customising it to fit the website's color scheme and style. Inside the navbar, each nav element takes the user to the appropriate part of the website by scrolling to the section that the user chooses. For example, clicking "Tickets" takes the user down to the tickets section by scrolling the webpage.
 ## About
-The about section shows an image of the band and describes the band. It also shows the band members individually and gives a description for each of them.
+The about section shows an image of the band and describes the band. It also shows the band members individually and gives a description for each of them, including details about their personalities, what they like and dislike, and when their birthdays are.
 ## Music 
-The music section has a carousel where the user can watch music videos, being able to click through the carousel at their own pace.
+The music section has 3 music videos for users to watch, that showcases the band and their music. On larger screens, the videos are shown side-by-side horizontally, while on smaller screens the videos are stacked vertically.
 ## Booking form
-The booking form leads to a (dummied) success page.
+The booking form leads to a (dummied) success page. The user is required to input their details in each element of the form with the correct layout (e.g. emails must include an @ symbol), and they can then submit their details. Those details are fed back to the user on the dummied success page.
 ## Footer
-(Describe styling)
+The footer uses the same colour as the navbar, as it sandwiches the website content nicely between them. Inside the footer, there are social media links that take the user to the appropriate social media sites. As the website is for a fictional band on tour, the links take the user to the sites but not to a specific account on the social media sites.
 # Technologies Used
 
 - [Bootstrap Version 5.3](https://getbootstrap.com/) for (features that used bootstrap go here)
