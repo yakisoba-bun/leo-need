@@ -118,6 +118,13 @@ The validation of the HTML and CSS was done using W3Schools' HTML and CSS valida
 The first HTML validation test found numerous errors and warnings that I needed to fix in order to pass the test. The easiest to fix were errors related to duplicated element IDs, namely as I initially used "thanks" as a singular ID for all of the thank you images in the Tickets section. There were also some errors with unused tags such as one ending div element that wasn't used. However, I initially retained some duplicate IDs, such as "hero", as I felt it was more convenient and easier to retain them and had no impact on the functionality of the code.
 
 <details>
+  <summary> Second HTML validation test</summary>
+  <img width="1378" height="174" alt="image" src="https://github.com/user-attachments/assets/7ae7c011-ebab-47d6-a20e-e04ca4f53c61" />
+</details>
+
+The second HTML validation test, after I had cut out most other errors, ended up only returning an error with using "frameborder" on the iframe elements that were used to display the music videos. After doing some research, I found that it was an error that could not be avoided in HTML. The other option to fix the error would have been to use "video" elements instead, but I chose to keep the iframe elements and accept that the error was not fixable. The only warning was related to a section element lacking a heading, but this was not causing any issues, so I chose to ignore the warning.
+
+<details>
   <summary>First CSS validation test using the W3Schools CSS validation tool</summary>
   <img width="376" height="80" alt="image" src="https://github.com/user-attachments/assets/efb997e6-e4da-4d23-b452-a5830eef2a15" />
 </details>
