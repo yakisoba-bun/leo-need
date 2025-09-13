@@ -107,8 +107,22 @@ The first lighthouse test I performed, using the Github Pages deployment of the 
 I had an issue after I began coding where I noticed that the CSS changes were not being added to the repository. I could not figure out a way to make it so that the IDE integration would mean the changes would be automatically uploaded, so I ended up using a workaround. I could instead upload the CSS file with changes I made to it and commit that to the repository.
 ## Validation
 
-- HTML validation carried out via the W3Schools HTML validation tool
-- CSS validation carried out via the W3Schools CSS validation tool
+The validation of the HTML and CSS was done using W3Schools' HTML and CSS validation tool.
+
+<details>
+  <summary> First HTML validation test </summary>
+  <img width="1203" height="643" alt="image" src="https://github.com/user-attachments/assets/8d20fc82-82f8-46ad-9fc4-9624fd44c052" /> 
+  <img width="1398" height="315" alt="image" src="https://github.com/user-attachments/assets/09a3da4c-0c1b-4628-ab6d-d83c5ed87770" />
+</details>
+
+The first HTML validation test found numerous errors and warnings that I needed to fix in order to pass the test. The easiest to fix were errors related to duplicated element IDs, namely as I initially used "thanks" as a singular ID for all of the thank you images in the Tickets section. There were also some errors with unused tags such as one ending div element that wasn't used. However, I initially retained some duplicate IDs, such as "hero", as I felt it was more convenient and easier to retain them and had no impact on the functionality of the code.
+
+<details>
+  <summary>First CSS validation test using the W3Schools CSS validation tool</summary>
+  <img width="376" height="80" alt="image" src="https://github.com/user-attachments/assets/efb997e6-e4da-4d23-b452-a5830eef2a15" />
+</details>
+
+The first CSS test found no errors with the CSS in my stylesheet, so did not require me to make any further changes to the CSS.
   
 ## Responsiveness testing
 # Deployment
