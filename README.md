@@ -84,13 +84,21 @@ The booking form leads to a (dummied) success page. The user is required to inpu
 ## Footer
 The footer uses the same colour as the navbar, as it sandwiches the website content nicely between them. Inside the footer, there are social media links that take the user to the appropriate social media sites. As the website is for a fictional band on tour, the links take the user to the sites but not to a specific account on the social media sites.
 # Technologies Used
-
-- [Bootstrap Version 5.3](https://getbootstrap.com/) for (features that used bootstrap go here)
+# Languages
+- HTML
+- CSS
+- JS
+# Frameworks/Libraries
+- [Bootstrap 5](https://getbootstrap.com/) for functionality across the entire website
+- FontAwesome
+- Google Fonts
+# Tools
 - Visual Studio Code (link here) as my chosen IDE
 - Colors for the website picked from [coolors](https://coolors.co/)
 - [W3Schools CSS Tutorials](https://www.w3schools.com/css/default.asp) used as a resource for various elements (e.g. how to center the hero-image)
+- [W3Schools HTML Validation tool](https://validator.w3.org/#validate_by_input)
+- [W3Schools CSS Validation tool](https://jigsaw.w3.org/css-validator/)
 - Initial code for the navbar from a previous project [Boardwalk Games](https://github.com/yakisoba-bun/boardwalk-games) done as part of the Code Institute course.
-  
 # Testing
 # Internal and external links
 The navigation bar links to each section of the website were tested to ensure that they sent the user to the correct sections, with enough scroll-padding to send the user precisely to the title of the section. The internal links work as intended. The "home" link seems to reload the page when clicked on, while the other links scroll the webpage as needed.
@@ -133,8 +141,8 @@ The first CSS test found no errors with the CSS in my stylesheet, so did not req
 
 The project was deployed very early on through the use of GitHub Pages. This can be done via:
 - Going to the repository and clicking on Settings.
-- From there, find "Pages" in the navigation.
-- Find the dropdown that shows "none", click on it and select "main"
+- From there, find **Pages** in the navigation.
+- Find the dropdown that shows **none**, click on it and select 'main
 - Click save. The website is now live [here](https://yakisoba-bun.github.io/leo-need-website)
 
 ## Forking project
