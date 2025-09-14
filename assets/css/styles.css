@@ -13,15 +13,18 @@
 
 /* Global styles */
 
-html, body {
+html {
     scroll-padding-top: 4.5rem;
+}
+
+body {
     font-family: "Noto Sans";
     background-color: var(--primary-color);
     color: var(--text-color-light);
 }
 
 .title {
-    background-color: #000000;
+    background-color: var(--text-color-dark);
     padding: 1rem;
     margin-bottom: 1.5rem;
     text-align: center;
@@ -36,6 +39,10 @@ html, body {
 
 #navbar .logo {
     width: 5rem;
+}
+
+#about-dropdown {
+    text-align: start;
 }
 
 /* Header */
@@ -77,8 +84,7 @@ html, body {
 
 /* Booking form */
 
-#thanks-saki, #thanks-ichika, #thanks-honami, #thanks-shiho {
-    width: 13%;
+.img-fluid {
     padding: 2rem 0rem;
 }
 
@@ -86,7 +92,7 @@ html, body {
     background-color: var(--primary-color);
     padding-bottom: 1rem;
     display: flex; 
-    justify-content: center; /* Centers the form fields */
+    justify-content: center;
 }
 
 /* Footer */
@@ -94,33 +100,11 @@ html, body {
 #footer {
     background: var(--secondary-color);
     text-align: center;
-    padding-top: 1rem;
+    padding: .5rem;
 }
 
 #socials {
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 2rem;
-}
-
-/* Media queries */
-
-/* xl devices (large desktops, 1200px and up) */
-@media screen and (min-width: 1200px) {
-    /* Aligns the images so they look more vertically centered on larger screens*/
-    #ichika-image {
-        padding-top: 10%;
-    }
-
-    #saki-image {
-        padding-top: 10%;
-    }
-
-    #honami-image {
-        padding-top: 10%;
-    }
-
-    #shiho-image {
-        padding-top: 10%;
-    }
 }

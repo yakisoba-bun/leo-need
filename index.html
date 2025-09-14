@@ -35,19 +35,16 @@
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <div class="dropdown-center">
+                            <li class="nav-item dropdown">
                                     <a class="nav-link btn btn-secondary dropdown-toggle" id="about-dropdown"
                                         href="#about" role="button" data-bs-toggle="dropdown"
-                                        aria-expanded="false">About</a>
+                                        aria-expanded="false">Leo/Need</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#about">Leo/Need</a></li>
                                         <li><a class="dropdown-item" href="#ichika">Hoshino Ichika</a></li>
                                         <li><a class="dropdown-item" href="#saki">Tenma Saki</a></li>
                                         <li><a class="dropdown-item" href="#honami">Mochizuki Honami</a></li>
                                         <li><a class="dropdown-item" href="#shiho">Hinomori Shiho</a></li>
                                     </ul>
-                                </div>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#music">Music</a>
@@ -73,24 +70,30 @@
 
     <main>
         <!--About section-->
-        <section id="about" class="container section">
+        <section id="about" class="container-fluid section">
             <!--About the band subsection-->
             <div class="row">
                 <div class="col-12 text-center">
-                        <h1 class="title">About Leo/Need...</h1>
+                    <h1 class="title">About Leo/Need...</h1>
                     <div class="row" id="about-text">
-                        <p>Leo/Need are a 4-piece japanese soft rock band, formed by a group of childhood friends who
-                            have learned to overcome their differences. After working hard to better themselves, they
-                            landed themselves a deal with a record company and turned professional.
-                            Led by the energetic voice of Hoshino Ichika and with the talents of drummer Mochizuki
-                            Honami, keyboardist Tenma Saki, and bassist Hinomori Shiho,
-                            they continue to go from strength to strength as a band. Their journey continues starwards!
-                        </p>
-                        <p> Musically, the band covers a range of styles but primarily leans on their rock-oriented
-                            style of music, which is equal parts energetic and emotive.
-                            The band are known to bring more than just their own voices to their songs too.
-                            A number of their songs also feature famous vocaloids such as Hatsune Miku, Megurine Luka,
-                            and the Kagamine twins!</p>
+                        <div class="container">
+                            <p>Leo/Need are a 4-piece japanese soft rock band, formed by a group of childhood friends
+                                who
+                                have learned to overcome their differences. After working hard to better themselves,
+                                they
+                                landed themselves a deal with a record company and turned professional.
+                                Led by the energetic voice of Hoshino Ichika and with the talents of drummer Mochizuki
+                                Honami, keyboardist Tenma Saki, and bassist Hinomori Shiho,
+                                they continue to go from strength to strength as a band. Their journey continues
+                                starwards!
+                            </p>
+                            <p> Musically, the band covers a range of styles but primarily leans on their rock-oriented
+                                style of music, which is equal parts energetic and emotive.
+                                The band are known to bring more than just their own voices to their songs too.
+                                A number of their songs also feature famous vocaloids such as Hatsune Miku, Megurine
+                                Luka,
+                                and the Kagamine twins!</p>
+                        </div>
                     </div>
                 </div>
                 <!--Band members subsection-->
@@ -216,29 +219,26 @@
         <section id="music" class="container-fluid section">
             <div class="row">
                 <div class="col-12 text-center">
-                        <h3 class="title">Music</h3>
+                    <h3 class="title">Music</h3>
                     <div class="col-md-12" id="music-video">
                         <iframe width="420" height="420"
                             src="https://www.youtube.com/embed/qDidqFD9QsU?si=p73zq1kZWsc8mkRn"
                             title="YouTube video player"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
                         <iframe width="420" height="420"
                             src="https://www.youtube.com/embed/9fnQklaziX4?si=cYiHBBPjL89tW6Ai"
                             title="YouTube video player"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         <iframe width="420" height="420"
                             src="https://www.youtube.com/embed/diDsFjpV8yw?si=g4F0R-Cy4cTe5-Ph"
                             title="YouTube video player"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                     </div>
                 </div>
-            </div>
-            <div class="row text-center">
-                <p><small>Want to see Leo/Need perform live? Book tickets <a href="#booking">here!</a></small></p>
             </div>
         </section>
         <!--Booking form section-->
@@ -246,50 +246,57 @@
         <section id="booking" class="container section">
             <div class="row justify-content-center">
                 <div class="col-12 text-center">
-                        <h4 class="title">Tickets</h4>
-                    <img src="assets/images/thanks-ichika.png" id="thanks-ichika" alt="chibified image of hoshino ichika">
-                    <img src="assets/images/thanks-saki.png" id="thanks-saki" alt="chibified image of tenma saki">
-                    <img src="assets/images/thanks-honami.png" id="thanks-honami" alt="chibified image of mochizuki honami">
-                    <img src="assets/images/thanks-shiho.png" id="thanks-shiho" alt="chibified image of hinomori shiho">
-                    <p>Thank you for your interest in seeing Leo/need perform live! Fill in your details below to
-                        reserve your tickets, and join the band on their journey towards the stars!</p>
-                    <form method="POST" action="https://formdump.codeinstitute.net">
-                        <div class="row">
-                            <div class="col-12 col-md-6 mb-3">
-                                <label for="first-name" class="form-label">
-                                    First Name:
-                                </label>
-                                <input class="form-control" id="first-name" name="first-name" type="text" required>
-                            </div>
-                            <div class="col-12 col-md-6 mb-3">
-                                <label for="last-name" class="form-label">
-                                    Last Name:
-                                </label>
-                                <input class="form-control" id="last-name" name="last-name" type="text" required>
-                            </div>
-                            <div class="col-12 col-md-6 mb-3">
-                                <label for="email" class="form-label">
-                                    Email:
-                                </label>
-                                <input class="form-control" id="email" name="email" type="email" required>
-                            </div>
-                            <div class="col-12 col-md-6 mb-3">
-                                <label for="address" class="form-label">
-                                    Postcode:
-                                </label>
-                                <input class="form-control" id="address" name="address" type="text" required>
-                            </div>
-                            <div class="row mb-3">
-                                <div class="col-12 col-md-6 mb-3 offset-md-3 form-check">
-                                    <label class="form-check-label" for="check1">
-                                        I agree to be contacted by email when tickets are purchaseable.
+                    <h4 class="title">Tickets</h4>
+                </div>
+                <div class="col-sm-6 col-md-12 text-center">
+                    <img src="assets/images/thanks-ichika.png" alt="chibified image of hoshino ichika"
+                        class="img-fluid">
+                    <img src="assets/images/thanks-saki.png" alt="chibified image of tenma saki" class="img-fluid">
+                </div>
+                <div class="col-sm-6 col-12 text-center">
+                    <img src="assets/images/thanks-honami.png" alt="chibified image of mochizuki honami" class="img-fluid">
+                    <img src="assets/images/thanks-shiho.png" alt="chibified image of hinomori shiho" class="img-fluid">
+                    <div class="col-12">
+                        <p>Thank you for your interest in seeing Leo/need perform live! Fill in your details below to
+                            reserve your tickets, and join the band on their journey towards the stars!</p>
+                        <form method="GET" action="success.html">
+                            <div class="row">
+                                <div class="col-12 col-md-6 mb-3">
+                                    <label for="first-name" class="form-label">
+                                        First Name:
                                     </label>
-                                    <input type="checkbox" class="form-check-input" id="check1">
+                                    <input class="form-control" id="first-name" name="first-name" type="text" required>
+                                </div>
+                                <div class="col-12 col-md-6 mb-3">
+                                    <label for="last-name" class="form-label">
+                                        Last Name:
+                                    </label>
+                                    <input class="form-control" id="last-name" name="last-name" type="text" required>
+                                </div>
+                                <div class="col-12 col-md-6 mb-3">
+                                    <label for="email" class="form-label">
+                                        Email:
+                                    </label>
+                                    <input class="form-control" id="email" name="email" type="email" required>
+                                </div>
+                                <div class="col-12 col-md-6 mb-3">
+                                    <label for="address" class="form-label">
+                                        Postcode:
+                                    </label>
+                                    <input class="form-control" id="address" name="address" type="text" required>
+                                </div>
+                                <div class="row mb-3">
+                                    <div class="col-12 col-md-6 mb-3 offset-md-3 form-check">
+                                        <label class="form-check-label" for="agree" required>
+                                            I agree to be contacted by email when tickets are purchaseable.
+                                        </label>
+                                        <input type="checkbox" class="form-check-input" id="agree">
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
@@ -299,10 +306,17 @@
     <footer id="footer">
         <p>Find us on social media!</p>
         <div class="container" id="socials">
-            <a class="fa-brands fa-facebook fa-lg" style="color: #74C0FC;" href="https://www.facebook.com" target="_blank" rel="noopener"></a>
-            <a class="fa-brands fa-x-twitter fa-lg" style="color: #74C0FC;" href="https://x.com" target="_blank" rel="noopener"></a>
-            <a class="fa-brands fa-youtube fa-lg" style="color: #74C0FC;" href="https://www.youtube.com" target="_blank" rel="noopener"></a>
-            <a class="fa-brands fa-instagram fa-lg" style="color: #74c0fc;" href="https://www.instagram.com" target="_blank" rel="noopener"></a>
+            <a class="fa-brands fa-facebook fa-lg" style="color: #74C0FC;" href="https://www.facebook.com"
+                target="_blank" rel="noopener"></a>
+            <a class="fa-brands fa-x-twitter fa-lg" style="color: #74C0FC;" href="https://x.com" target="_blank"
+                rel="noopener"></a>
+            <a class="fa-brands fa-youtube fa-lg" style="color: #74C0FC;" href="https://www.youtube.com" target="_blank"
+                rel="noopener"></a>
+            <a class="fa-brands fa-instagram fa-lg" style="color: #74c0fc;" href="https://www.instagram.com"
+                target="_blank" rel="noopener"></a>
+        </div>
+        <div class="container" id="disclaimer">
+            <p><small>This website is purely for educational purposes and has no affiliation with SEGA, Colorful Palette, or Crypton Media.</small></p>
         </div>
     </footer>
     <!--Bootstrap JS import-->
@@ -312,4 +326,5 @@
     <!--Font Awesome import script-->
     <script src="https://kit.fontawesome.com/a3c315e688.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
