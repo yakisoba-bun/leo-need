@@ -56,6 +56,14 @@ I chose to use the Noto font family for the website as I wanted to use a font th
 
 <img width="1600" height="1200" alt="leoneed site colour scheme" src="https://github.com/user-attachments/assets/4aa97081-8fb2-468e-868e-6300b82aa565" />
 
+| CSS Variable       | Colour  | Comment                                                                                                  |
+|--------------------|---------|----------------------------------------------------------------------------------------------------------|
+| --primary-color    | #021775 | Primary blue colour, used for background for the majority of the website                                 |
+| --secondary-color  | #4560c6 | Secondary blue colour, used for the header and footer                                                    |
+| --tertiary-color   | #3e457d | Tertiary blue colour, used for the background of the cards to distinguish them from the main background  |
+| --text-color-light | #FFFFFF | Used as the main text colour as it offers good contrast with my chosen colour scheme                     |
+| --text-color-dark  | #000000 | Used in some cases to offer better contrast to white text, primarily used in the titles for each section |
+
 I chose these colours for the website as I wanted to use different shades of blue for the primary and secondary colours, and a darker shade for the tertiary colour. I then wanted to use black and white as they contrast each other well and would help contribute to good accessibility and readability for the website.
 
 I also utilised EightShapes Contrast Grid as it gave me an easy to understand visualisation of how my chosen colours would contrast each other and how I could best meet accessiblity needs with the colours chosen.
@@ -73,15 +81,25 @@ I chose to incorporate responsiveness through the use of Bootstrap's breakpoints
 
 # Features
 # Existing features
+
 ## Navigation
+
 The navigation was made using Bootstrap's responsive navbar as the base, further customising it to fit the website's color scheme and style. Inside the navbar, each nav element takes the user to the appropriate part of the website by scrolling to the section that the user chooses. For example, clicking "Tickets" takes the user down to the tickets section by scrolling the webpage.
+
 ## About
+
 The about section shows an image of the band and describes the band. It also shows the band members individually and gives a description for each of them, including details about their personalities, what they like and dislike, and when their birthdays are.
+
 ## Music 
+
 The music section has 3 music videos for users to watch, that showcases the band and their music. On larger screens, the videos are shown side-by-side horizontally, while on smaller screens the videos are stacked vertically.
+
 ## Booking form
+
 The booking form leads to a (dummied) success page. The user is required to input their details in each element of the form with the correct layout (e.g. emails must include an @ symbol), and they can then submit their details. Those details are fed back to the user on the dummied success page.
+
 ## Footer
+
 The footer uses the same colour as the navbar, as it sandwiches the website content nicely between them. Inside the footer, there are social media links that take the user to the appropriate social media sites. As the website is for a fictional band on tour, the links take the user to the sites but not to a specific account on the social media sites.
 # Technologies Used
 # Languages
