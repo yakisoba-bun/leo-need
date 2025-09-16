@@ -164,10 +164,31 @@ The project was deployed very early on through the use of GitHub Pages. This can
 - Click save. The website is now live [here](https://yakisoba-bun.github.io/leo-need-website)
 
 ## Forking project
+
+- Log in to GitHub.
+- Locate the repository.
+- Click to open it.
+- The fork button is located on the right side of the repository menu.
+- To copy the repository to your GitHub account, click the button.
+
 ## Cloning project
+
+- Log in to GitHub.
+- Navigate to the main page of the repository and click **Code**.
+- Copy the URL for the repository.
+- Open your local IDE.
+- Change the current working directory to the location where you want the cloned directory.
+- Type git clone, and then paste the URL you copied earlier.
+- Press Enter to create your local clone.
+  
 # Credits
-- Bootstrap's documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
-- Official material used for band logos, members, and music videos from Project SEKAI COLORFUL STAGE! feat. Hatsune Miku
-- Code to help with adding videos to the carousel and styling them came from [this post](https://stackoverflow.com/a/59595248) and was further adjusted
+
+- ]Bootstrap's documentation.](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- Official material used for band logos, members, and music videos from Project SEKAI COLORFUL STAGE! feat. Hatsune Miku.
+- Code to help with adding videos to the carousel and styling them came from [this post](https://stackoverflow.com/a/59595248) and was further adjusted.
+- My mentor, Simen Daehlin, for help with numerous issues and giving great advice throughout on multiple areas of the development process.
+- My tutor, Tom Cowen, for 1-1s during the course of development, and offering help if I struggled while working on the website.
+
 # Disclaimer
-This site is entirely fanmade and is not in any way affiliated with SEGA, Colorful Palette, or Crypton Future Media.
+
+This site is entirely fanmade and is **not** in any way affiliated with SEGA, Colorful Palette, or Crypton Future Media. 
