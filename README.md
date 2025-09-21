@@ -111,7 +111,8 @@ The footer uses the same colour as the navbar, as it sandwiches the website cont
 - FontAwesome
 - Google Fonts
 # Tools
-- Visual Studio Code (link here) as my chosen IDE
+- Visual Studio Code as my chosen IDE
+- Git and GitHub for version control
 - Colors for the website picked from [coolors](https://coolors.co/)
 - [W3Schools CSS Tutorials](https://www.w3schools.com/css/default.asp) used as a resource for various elements (e.g. how to center the hero-image)
 - [W3Schools HTML Validation tool](https://validator.w3.org/#validate_by_input)
