@@ -56,6 +56,14 @@ I chose to use the Noto font family for the website as I wanted to use a font th
 
 <img width="1600" height="1200" alt="leoneed site colour scheme" src="https://github.com/user-attachments/assets/4aa97081-8fb2-468e-868e-6300b82aa565" />
 
+| CSS Variable       | Colour  | Comment                                                                                                  |
+|--------------------|---------|----------------------------------------------------------------------------------------------------------|
+| --primary-color    | #021775 | Primary blue colour, used for background for the majority of the website                                 |
+| --secondary-color  | #4560c6 | Secondary blue colour, used for the header and footer                                                    |
+| --tertiary-color   | #3e457d | Tertiary blue colour, used for the background of the cards to distinguish them from the main background  |
+| --text-color-light | #FFFFFF | Used as the main text colour as it offers good contrast with my chosen colour scheme                     |
+| --text-color-dark  | #000000 | Used in some cases to offer better contrast to white text, primarily used in the titles for each section |
+
 I chose these colours for the website as I wanted to use different shades of blue for the primary and secondary colours, and a darker shade for the tertiary colour. I then wanted to use black and white as they contrast each other well and would help contribute to good accessibility and readability for the website.
 
 I also utilised EightShapes Contrast Grid as it gave me an easy to understand visualisation of how my chosen colours would contrast each other and how I could best meet accessiblity needs with the colours chosen.
@@ -73,24 +81,42 @@ I chose to incorporate responsiveness through the use of Bootstrap's breakpoints
 
 # Features
 # Existing features
+
 ## Navigation
+
 The navigation was made using Bootstrap's responsive navbar as the base, further customising it to fit the website's color scheme and style. Inside the navbar, each nav element takes the user to the appropriate part of the website by scrolling to the section that the user chooses. For example, clicking "Tickets" takes the user down to the tickets section by scrolling the webpage.
+
 ## About
+
 The about section shows an image of the band and describes the band. It also shows the band members individually and gives a description for each of them, including details about their personalities, what they like and dislike, and when their birthdays are.
+
 ## Music 
+
 The music section has 3 music videos for users to watch, that showcases the band and their music. On larger screens, the videos are shown side-by-side horizontally, while on smaller screens the videos are stacked vertically.
+
 ## Booking form
+
 The booking form leads to a (dummied) success page. The user is required to input their details in each element of the form with the correct layout (e.g. emails must include an @ symbol), and they can then submit their details. Those details are fed back to the user on the dummied success page.
+
 ## Footer
+
 The footer uses the same colour as the navbar, as it sandwiches the website content nicely between them. Inside the footer, there are social media links that take the user to the appropriate social media sites. As the website is for a fictional band on tour, the links take the user to the sites but not to a specific account on the social media sites.
 # Technologies Used
-
-- [Bootstrap Version 5.3](https://getbootstrap.com/) for (features that used bootstrap go here)
+# Languages
+- HTML
+- CSS
+- JS
+# Frameworks/Libraries
+- [Bootstrap 5](https://getbootstrap.com/) for functionality across the entire website
+- FontAwesome
+- Google Fonts
+# Tools
 - Visual Studio Code (link here) as my chosen IDE
 - Colors for the website picked from [coolors](https://coolors.co/)
 - [W3Schools CSS Tutorials](https://www.w3schools.com/css/default.asp) used as a resource for various elements (e.g. how to center the hero-image)
+- [W3Schools HTML Validation tool](https://validator.w3.org/#validate_by_input)
+- [W3Schools CSS Validation tool](https://jigsaw.w3.org/css-validator/)
 - Initial code for the navbar from a previous project [Boardwalk Games](https://github.com/yakisoba-bun/boardwalk-games) done as part of the Code Institute course.
-  
 # Testing
 # Internal and external links
 The navigation bar links to each section of the website were tested to ensure that they sent the user to the correct sections, with enough scroll-padding to send the user precisely to the title of the section. The internal links work as intended. The "home" link seems to reload the page when clicked on, while the other links scroll the webpage as needed.
@@ -133,15 +159,36 @@ The first CSS test found no errors with the CSS in my stylesheet, so did not req
 
 The project was deployed very early on through the use of GitHub Pages. This can be done via:
 - Going to the repository and clicking on Settings.
-- From there, find "Pages" in the navigation.
-- Find the dropdown that shows "none", click on it and select "main"
+- From there, find **Pages** in the navigation.
+- Find the dropdown that shows **none**, click on it and select 'main
 - Click save. The website is now live [here](https://yakisoba-bun.github.io/leo-need-website)
 
 ## Forking project
+
+- Log in to GitHub.
+- Locate the repository.
+- Click to open it.
+- The fork button is located on the right side of the repository menu.
+- To copy the repository to your GitHub account, click the button.
+
 ## Cloning project
+
+- Log in to GitHub.
+- Navigate to the main page of the repository and click **Code**.
+- Copy the URL for the repository.
+- Open your local IDE.
+- Change the current working directory to the location where you want the cloned directory.
+- Type git clone, and then paste the URL you copied earlier.
+- Press Enter to create your local clone.
+  
 # Credits
-- Bootstrap's documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
-- Official material used for band logos, members, and music videos from Project SEKAI COLORFUL STAGE! feat. Hatsune Miku
-- Code to help with adding videos to the carousel and styling them came from [this post](https://stackoverflow.com/a/59595248) and was further adjusted
+
+- ]Bootstrap's documentation.](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- Official material used for band logos, members, and music videos from Project SEKAI COLORFUL STAGE! feat. Hatsune Miku.
+- Code to help with adding videos to the carousel and styling them came from [this post](https://stackoverflow.com/a/59595248) and was further adjusted.
+- My mentor, Simen Daehlin, for help with numerous issues and giving great advice throughout on multiple areas of the development process.
+- My tutor, Tom Cowen, for 1-1s during the course of development, and offering help if I struggled while working on the website.
+
 # Disclaimer
-This site is entirely fanmade and is not in any way affiliated with SEGA, Colorful Palette, or Crypton Future Media.
+
+This site is entirely fanmade and is **not** in any way affiliated with SEGA, Colorful Palette, or Crypton Future Media. 
