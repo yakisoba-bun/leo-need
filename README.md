@@ -101,15 +101,20 @@ The booking form leads to a (dummied) success page. The user is required to inpu
 ## Footer
 
 The footer uses the same colour as the navbar, as it sandwiches the website content nicely between them. Inside the footer, there are social media links that take the user to the appropriate social media sites. As the website is for a fictional band on tour, the links take the user to the sites but not to a specific account on the social media sites.
+
 # Technologies Used
+
 # Languages
 - HTML
 - CSS
 - JS
+  
 # Frameworks/Libraries
+
 - [Bootstrap 5](https://getbootstrap.com/) for functionality across the entire website
 - FontAwesome
 - Google Fonts
+  
 # Tools
 - Visual Studio Code as my chosen IDE
 - Git and GitHub for version control
@@ -118,18 +123,24 @@ The footer uses the same colour as the navbar, as it sandwiches the website cont
 - [W3Schools HTML Validation tool](https://validator.w3.org/#validate_by_input)
 - [W3Schools CSS Validation tool](https://jigsaw.w3.org/css-validator/)
 - Initial code for the navbar from a previous project [Boardwalk Games](https://github.com/yakisoba-bun/boardwalk-games) done as part of the Code Institute course.
+- 
 # Testing
+
 # Internal and external links
 The navigation bar links to each section of the website were tested to ensure that they sent the user to the correct sections, with enough scroll-padding to send the user precisely to the title of the section. The internal links work as intended. The "home" link seems to reload the page when clicked on, while the other links scroll the webpage as needed.
 External links work as intended, sending the user to the correct website and opening in a new tab, as is required.
+
 # Lighthouse 1st test
 The first lighthouse test I performed, using the Github Pages deployment of the site, returned a score of 81 overall, with an 81 score in performance and an 80 score in accessibility. The best practices score was much lower at 56. As I tested it in Github Pages initially, I suspected that the performance score may have been lower as a result of that.
 [The first test results](https://github.com/user-attachments/assets/86d406fe-9170-4f9f-8352-49fa20ca71b5) showed one easy change I could make was to add the meta tags to the head section of the webpage's HTML. I anticipated that this would help to raise the best practices score and raise the overall score as a result.
+
 ## Bugs and other known issues
 # Issues styling titles
 I wanted to more clearly split each section of the website up by giving my titles black backgrounds and stretching them across the page to divide the website up more clearly. I however ran into issues making sure the title backgrounds stretched the full width of the page. With mentor assistance I was able to use `container-fluid ` to fill more space, but it wasn't entirely consistent. It was suggested I use `px` to fill in the remaining space but I wasn't entirely sure on how to do so.
+
 # CSS stylesheet
 I had an issue after I began coding where I noticed that the CSS changes were not being added to the repository. I could not figure out a way to make it so that the IDE integration would mean the changes would be automatically uploaded, so I ended up using a workaround. I could instead upload the CSS file with changes I made to it and commit that to the repository.
+
 ## Validation
 
 The validation of the HTML and CSS was done using W3Schools' HTML and CSS validation tool.
@@ -172,6 +183,7 @@ I used [Am I Responsive?](https://ui.dev/amiresponsive) to check what my website
 | Laptop/Desktop (1400px screen size - xxl) | Good      | Good    | Good       | Good          | No new concerns.                                                                |
 
 The initial tests showed I had an issue with my navbar and its functionality. It was requiring the user to scroll up to show the navbar fully after scrolling down, and when opening the dropdown in the navbar, the user would also have to scroll up slightly to be able to close it again.
+
 # Deployment
 ## Deploying project
 
@@ -201,7 +213,7 @@ The project was deployed very early on through the use of GitHub Pages. This can
   
 # Credits
 
-- ]Bootstrap's documentation.](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- [Bootstrap's documentation.](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
 - Official material used for band logos, members, and music videos from Project SEKAI COLORFUL STAGE! feat. Hatsune Miku.
 - Code to help with adding videos to the carousel and styling them came from [this post](https://stackoverflow.com/a/59595248) and was further adjusted.
 - My mentor, Simen Daehlin, for help with numerous issues and giving great advice throughout on multiple areas of the development process.
