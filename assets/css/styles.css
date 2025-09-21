@@ -13,6 +13,7 @@
 
 /* Global styles */
 
+/* Makes sure navbar scrolls to sections as intended */
 html {
     scroll-padding-top: 4.5rem;
 }
@@ -107,4 +108,20 @@ body {
     display: flex;
     justify-content: space-evenly;
     padding-bottom: 2rem;
+}
+
+/* success.html specific styles */
+
+#success-message {
+    padding-top: 5rem;
+}
+
+/* Keeps footer fixed to the bottom of the page */
+#footer-success {
+    background: var(--secondary-color);
+    text-align: center;
+    padding: .5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
