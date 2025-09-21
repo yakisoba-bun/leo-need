@@ -71,6 +71,10 @@ body {
     width: 95%;
 }
 
+.card {
+    background-color: var(--tertiary-color);
+}
+
 .card-title {
     text-transform: uppercase;
     padding: .5rem;
