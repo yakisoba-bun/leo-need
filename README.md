@@ -156,6 +156,21 @@ The second HTML validation test, after I had cut out most other errors, ended up
 The first CSS test found no errors with the CSS in my stylesheet, so did not require me to make any further changes to the CSS.
   
 ## Responsiveness testing
+
+I used [Am I Responsive?](https://ui.dev/amiresponsive) to check what my website would look like on different devices, and then used Google Chrome's Dev Tools and checked how responsive the website was across multiple devices. The table below shows the device examples used, and how good functionality, navigation, alignment, and content were on the website on those devices.
+
+| Device/Size                               | Alignment | Content | Navigation | Functionality | Comments                                                                        |
+|-------------------------------------------|-----------|---------|------------|---------------|---------------------------------------------------------------------------------|
+| Samsung Galaxy S20 Ultra (sm)             | OK        | Good    | Good       | Good          | Slight concern about alignment, but it is consistent.                           |
+| iPhone 14 Pro Max (sm)                    | Good      | Good    | Good       | Good          | Noticed an issue with navigation, requires user to scroll up to close nav menu. |
+| iPad Mini (md)                            | Good      | Good    | Good       | Good          | No new concerns.                                                                |
+| iPad Air (md)                             | Good      | Good    | Good       | Good          | No new concerns.                                                                |
+| iPad Pro (lg)                             | Good      | Good    | Good       | Good          | No new concerns.                                                                |
+| Nest Hub Max (xl)                         | Good      | Good    | Good       | Good          | No new concerns.                                                                |
+| Laptop (1024px screen size - xl)          | Good      | Good    | Good       | Good          | No new concerns.                                                                |
+| Laptop/Desktop (1400px screen size - xxl) | Good      | Good    | Good       | Good          | No new concerns.                                                                |
+
+The initial tests showed I had an issue with my navbar and its functionality. It was requiring the user to scroll up to show the navbar fully after scrolling down, and when opening the dropdown in the navbar, the user would also have to scroll up slightly to be able to close it again.
 # Deployment
 ## Deploying project
 
